@@ -1,0 +1,11 @@
+[package]
+name = "eeeeeeeee"
+version = "9.9.9"
+[workspace]
+
+[dependencies]
+wasmer-runtime = "0.12.0"
+
+[[bin]]
+name = "sandbox"
+path = "bug.rs"
